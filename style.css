@@ -1,0 +1,19 @@
+#canvas1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid;
+  width: 600px;
+  height: 600px;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+.controls,
+select,
+option {
+  font-size: 24px;
+}
